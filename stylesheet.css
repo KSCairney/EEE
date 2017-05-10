@@ -1,6 +1,22 @@
 
+#splashbody {
+    text-align: center;
+    background-image: url("pictures/bottom.jpg");
+    background-size: 100%;
+}
+#logosplash {
+    margin-top: 250px;
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+}
+#start {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #peakBox {
-    background-image: url("pictures/england.jpg");
+   /* background-image: url("pictures/england.jpg");*/
     width: 100%;
     height: 300px;
     overflow: hidden;
@@ -43,12 +59,28 @@ li {
 
 li a{
     display: block;
-    color: #01089d;
+    color: #000000;
     text-align:center;
     padding: 10px 20px;
     text-decoration: none;
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#homey {
+    padding-right: 35px;
+}
+
+#coverpage {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    line-height: 45px;
+    color: #ffffff;
+    text-align: justify;
+    width: 70%;
+    font-size: 22px;
+}
+
 /*
 .shell {
     text-align: center;
@@ -83,6 +115,25 @@ div .bar {
 span{
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
+}
+h1 {
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#person{
+    height:400px;
+    width:400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50%;
+    float: right;
 }
 
 div.box{
