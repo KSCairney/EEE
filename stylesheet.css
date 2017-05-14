@@ -156,3 +156,23 @@ div.box{
     padding-top: 10px;
     padding-top: 150px;
 }
+
+/* Links page */
+
+.righty {
+    text-align: right;
+    float: right;
+}
+
+.lefty {
+    text-align: left;
+    float: left;
+
+}
+
+.quote {
+    font-size:16px;
+    text-align: justify;
+    width: 70%;
+    color: 
+}
