@@ -9,17 +9,18 @@ body {
 }
 
 spacer {
-    height: 150px;
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #bar {
     text-align: center;
     vertical-align: middle;
     background-color: #ffffff;
-    opacity: 0.8;
+    opacity: 0.85;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+    -webkit-backdrop-filter: blur(100px);
 }
 
 #title{
@@ -43,6 +44,7 @@ spacer {
 p.text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
+    font-size: 18px;
 }
 div.button {
     border-width: 2px;
@@ -57,6 +59,7 @@ div.button {
 
 #cont {
     color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     margin-bottom: 400px;
 }
