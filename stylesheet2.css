@@ -20,10 +20,19 @@ spacer {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     -webkit-backdrop-filter: blur(100px);
 }
-
+#flag{
+    height: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0px;
+}
 #title{
+    margin-top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
     margin-bottom: 10px;
@@ -34,6 +43,14 @@ spacer {
     line-height: 20px;
     font-variant: small-caps;
     padding-bottom: 20px;
+}
+.pagetop{
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 20px;
+    font-variant: small-caps;
+    margin-bottom: 10px;
 }
 #textblock {
     text-align: center;
@@ -55,9 +72,57 @@ div.button {
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+    display: inline-block;
+}
+ul {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 18px;
 }
 
 #cont {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom: 400px;
+}
+#link {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom: 400px;
+}
+#LM {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom: 400px;
+}
+#home {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom: 400px;
+}
+#wyzant{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom: 400px;
+}
+#linkedin {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-bottom: 400px;
+}
+#other {
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
